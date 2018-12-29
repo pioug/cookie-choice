@@ -1,0 +1,10 @@
+{
+  "name": "tough-cookies",
+  "version": "0.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.15.3",
+    "rollup": "0.68.2",
+    "rollup-plugin-string": "2.0.2"
+  }
+}

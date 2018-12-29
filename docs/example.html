@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cookie Choice | Demo</title>
+  </head>
+  <body></body>
+  <script type="module">
+    (async () => {
+      const {
+        renderCookieChoice
+      } = await import("https://www.piou.io/cookie-choice.js?privacy-policy-link=https://www.piou.io/privacy-policy");
+
+      if (renderCookieChoice()) {
+        document.body.addEventListener(
+          "cookieChoice:accept",
+          {
+            once: true
+          },
+          () => {
+            document.write("Thank you for accepting cookies!");
+          }
+        );
+      } else {
+        document.write("Cookie consent is not required in your country!");
+      }
+    })();
+  </script>
+</html>
