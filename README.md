@@ -3,8 +3,8 @@
 ## Demo
 
 - Live demo: https://pioug.github.io/cookie-choice/example.html
-- "Noop" fuction if not in Europe: https://www.piou.io/cookie-choice.js?privacy-policy-link=https://github.com/pioug/cookie-choice
-- Function to render the banner: https://www.piou.io/cookie-choice.js?privacy-policy-link=https://github.com/pioug/cookie-choice&force=true
+- "Noop" fuction if not in Europe: https://cookie-choice.pioug.workers.dev/cookie-choice.js?privacy-policy-link=https://github.com/pioug/cookie-choice
+- Function to render the banner: https://cookie-choice.pioug.workers.dev/cookie-choice.js?privacy-policy-link=https://github.com/pioug/cookie-choice&force=true
 
 ## Why?
 

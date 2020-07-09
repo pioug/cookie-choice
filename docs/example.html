@@ -8,7 +8,7 @@
     (async () => {
       const {
         renderCookieChoice
-      } = await import("https://www.piou.io/cookie-choice.js?privacy-policy-link=https://www.piou.io/privacy-policy");
+      } = await import("https://cookie-choice.pioug.workers.dev/cookie-choice.js?privacy-policy-link=https://github.com/pioug/cookie-choice&force=true");
 
       if (renderCookieChoice()) {
         document.body.addEventListener(
